@@ -1,0 +1,43 @@
+:root {
+  --ast-global-color-0: #fdc500 !important;
+  --ast-global-color-1: #510087 !important;
+  --ast-global-color-2: #3d0066 !important;
+  --ast-global-color-3: #7e868c;
+  --ast-global-color-4: #f8fbfe;
+  --ast-global-color-5: #ffffff;
+  --ast-global-color-6: #fdc500;
+  --ast-global-color-7: #f6fcff;
+  --ast-global-color-8: #BFD1FF;
+  --swiper-theme-color: #510087;
+}
+
+.ast-theme-transparent-header div.ast-masthead-custom-menu-items a:hover,
+    .ast-theme-transparent-header div.ast-masthead-custom-menu-items .widget a:hover,
+    .ast-theme-transparent-header .site-header-section [CLASS*="ast-header-html-"] .ast-builder-html-element a:hover {
+      color: #fdc500;
+    }
+
+.elementor-302 .elementor-element.elementor-element-a7407d3 .elementor-icon-list-icon i {
+    color: #fdc500 !important;
+    transition: color 0.3s;
+}
+
+@media (max-width:921px) {
+  .ast-theme-transparent-header div.ast-masthead-custom-menu-items a:hover,
+      .ast-theme-transparent-header div.ast-masthead-custom-menu-items .widget a:hover {
+        color: #fdc500;
+      }
+}
+.date-input {
+  width: 100%;
+  border: 1px solid #777771;
+  outline: none;
+  border-radius: 0px !important;
+  background-color: rgb(236, 236, 236);
+}
+.elementor-kit-5 input:not([type="button"]):not([type="submit"]), .elementor-kit-5 textarea, .elementor-kit-5 .elementor-field-textual {
+  padding: 11px !important;
+}
+.date-input:hover, .date-input:active {
+  border: 1px solid #257cff !important;
+}
