@@ -3218,6 +3218,17 @@
       font-size: 1.5em;
       line-height: 1.6;
     }
+    #success-content {
+      margin-left: 10px; 
+      margin-right: 10px; 
+      height: 100vh; 
+      margin-top: 20%;
+    }
+    @media (max-width: 921px) {
+      #success-content {
+        margin-top: 50%;
+      }
+    }
   </style>
   <link rel='stylesheet' id='datetimepicker-style-css'
     href='https://retroaudits.com/wp-content/plugins/aio-time-clock-lite/css/jquery.datetimepicker.css?ver=6.2.2'
@@ -3651,7 +3662,7 @@ flexibility(document.documentElement);
           <section class="error-404 not-found">
 
 
-            <div class="ast-404-layout-1" style="margin-left: 10px; margin-right: 10px; height: 100vh; margin-top: 20%;">
+            <div id="success-content" class="ast-404-layout-1">
 
               <header class="page-header">
                 <h1 class="page-title">Job Application Submitted Successfully!</h1>
